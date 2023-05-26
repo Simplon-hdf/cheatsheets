@@ -57,19 +57,78 @@ git log --stat -M
 
 ### 9. Others : must know
 
--------------------------------------- GIT STASH --------------------------------------
 
-- git stash push -u -m "message" ........... Discard all changes since the last commit.
-- git stash ................................ Create a stash without any informations.
-- git stash save stashName (obsolete) ...... Save local changes (since last commit) in a stash with a specified name.
-- branch nomDeBranch nomDuStash ............ Create a new branch from a specific stash and apply changes to it.
-- git stash apply .......................... Apply changes from last stash.
-- git stash apply stash@{n} ................ Applies changes to a specific stash without removing it from the list of stashes.
-- git stash pop ............................ Applies and removes the last stash.
-- git stash pop stash@{n} .................. Applies changes to a specific stash and removing it from the list of stashes.
-- git stash list ........................... Show the stash list.
-- git stash drop ........................... Delete the last stash.
-- git stash drop stash@{n} ................. Remove a particular stash from the stash list.
-- git stash show ........................... Show changes in most recent stash.
-- git stash show stash@{1} -p .............. Inspect a particular stash.
-- git stash clear .......................... Delete all stash.
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+# **GIT STASH**
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+
+Show the stash list :
+```bash
+git stash list
+```
+
+Create a stash without any informations (bad idea) :
+```bash
+git stash
+```
+
+Discard all changes since the last commit :
+```bash
+git stash push -u -m "message"
+```
+
+Save local changes (since last commit) in a stash with a specified name :
+```bash
+git stash save stashName (obsolete)
+```
+
+Create a new branch from a specific stash and apply changes to it :
+```bash
+branch branchName stashName
+```
+
+Apply changes of the last stash :
+```bash
+git stash apply
+```
+
+Applies changes to a specific stash without removing it from the list of stashes :
+```bash
+git stash apply stash@{n}
+```
+
+Applies and removes the last stash :
+```bash
+git stash pop
+```
+
+Applies changes to a specific stash and removing it from the list of stashes :
+```bash
+git stash pop stash@{n}
+```
+
+Delete the last stash :
+```bash
+git stash drop
+```
+
+Remove a particular stash from the stash list :
+```bash
+git stash drop stash@{n}
+```
+
+Show changes in most recent stash :
+```bash
+git stash show
+```
+
+Inspect a particular stash :
+```bash
+git stash show stash@{1} -p
+```
+
+Delete all stash :
+```bash
+git stash clear
+```
