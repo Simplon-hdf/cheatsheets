@@ -2,7 +2,11 @@
 
 ## Headers
 
+<<<<<<< HEAD
 You can make headers by using sign "#": 
+=======
+You can make headers with sign "#": 
+>>>>>>> 68fa92b (docs: update blockquote part in markdown.md)
 
 \# H1  
 \## H2   
@@ -40,7 +44,11 @@ H2 Too
 
 # Blockquotes
 
+<<<<<<< HEAD
 You can put texts in a blockquote by using sign ">" at the beggining of a line.
+=======
+You can put texts in a blockquote with sign ">".
+>>>>>>> 68fa92b (docs: update blockquote part in markdown.md)
 
 > \>A text in a blockquote \**two spaces here to break*\*  
 following text at the line
@@ -49,4 +57,7 @@ following text at the line
 
 # Tables
 
+<<<<<<< HEAD
 You can make tables by using 
+=======
+>>>>>>> 68fa92b (docs: update blockquote part in markdown.md)
