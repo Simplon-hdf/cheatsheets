@@ -35,6 +35,19 @@ git pull upstream <branch>
 
 ### 6. Merge & Rebase
 
+| Command | Description |
+| --- | --- | 
+|`git merge <branch to integrate>`|Merge the specified branch history into the current one|
+|`git rebase <id commit>` </br> `git rebase <from branch>`|Apply every commit of current branch ahead of a specified one|
+
+<details>
+<summary>Rebase & Merge understanding</summary>
+[Basic scheme](../images/git-merge-vs-rebase.PNG)
+
+<img src="../images/git-merge-vs-rebase.PNG"></img>
+</details>
+<br>
+
 ### 7. Upstream
 
 ### 8. Compare, Diff & Log
