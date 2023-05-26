@@ -2,7 +2,7 @@
 
 ## Headers
 
-You can make headers with sign "#": 
+You can make headers by using sign "#": 
 
 \# H1  
 \## H2   
@@ -11,7 +11,7 @@ You can make headers with sign "#":
 \##### H5   
 \##### H6   
 
-Other way for H1 and H2:
+Or underlined syle for H1 and H2:
 
 H1 Too  
 \======  
@@ -27,7 +27,7 @@ H2 Too
 ##### H6
 
 <br>
-Other way for H1 and H2:
+Or underlined syle for H1 and H2:
 <br>
 <br>
 
@@ -40,7 +40,7 @@ H2 Too
 
 # Blockquotes
 
-You can put texts in a blockquote with sign ">".
+You can put texts in a blockquote by using sign ">" at the beggining of a line.
 
 > \>A text in a blockquote \**two spaces here to break*\*  
 following text at the line
@@ -49,3 +49,4 @@ following text at the line
 
 # Tables
 
+You can make tables by using 
