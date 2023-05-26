@@ -1,12 +1,14 @@
-# Markdown Cheat-Sheet 
+# Markdown Cheat-Sheet  
+# Summary  
 
+  - ## [Headers](#headers-1)
+  - ## [Blockquotes](#blockquotes-1)
+  - ## [Tables](#tables-1)
+  - ## [Emphasis](#emphasis-1)
+  
 ## Headers
 
-<<<<<<< HEAD
 You can make headers by using sign "#": 
-=======
-You can make headers with sign "#": 
->>>>>>> 68fa92b (docs: update blockquote part in markdown.md)
 
 \# H1  
 \## H2   
@@ -44,11 +46,7 @@ H2 Too
 
 # Blockquotes
 
-<<<<<<< HEAD
 You can put texts in a blockquote by using sign ">" at the beggining of a line.
-=======
-You can put texts in a blockquote with sign ">".
->>>>>>> 68fa92b (docs: update blockquote part in markdown.md)
 
 > \>A text in a blockquote \**two spaces here to break*\*  
 following text at the line
@@ -57,7 +55,42 @@ following text at the line
 
 # Tables
 
-<<<<<<< HEAD
-You can make tables by using 
-=======
->>>>>>> 68fa92b (docs: update blockquote part in markdown.md)
+You can make tables with pipe "|" and hyphen "-". Hyphens are used to create header of each columns while pipes delimit columns.  
+
+
+
+>| First Header | Second Header |  
+| ------------ | ------------- |  
+| Cell         | Cell          |  
+| Cell         | Cell          |
+
+| First Header | Second Header |
+| ------------ | ------------- |
+| Cell         | Cell          |
+| Cell         | Cell          |
+
+You can aligne you text in each column by adding colon ":":
+
+
+>| Left-aligne | Center | Right-aligned |  
+| :---        | :---:  | ---: |  
+| Cell        | Cell   | Cell |  
+| Cell        | Cell   | Cell |
+
+| Left-aligne | Center | Right-aligned |
+| :---        | :---:  | ---: |
+| Cell        | Cell   | Cell |
+| Cell        | Cell   | Cell |  
+
+# Emphasis  
+
+You can emphase your text using asterisk "*", Underscore "_" or tildes "~". You can also mix them.
+
+| Style | Syntax | Exemple | Output |
+| --- | --- | --- | --- |
+| Bold | ** ** or __ __ | \*\*Bold text** | **Bold text** |  
+| Italic | * * or _ _ | \_Italic text_ | _Italic text_ |  
+| Crossed | ~~ ~~ | \~~Dashed text~~ | ~~Dashed text~~ | 
+| Bold and italic imbricated | ** ** and _ _ | \**Italic text but also \_bold_** | **Italic text but also _bold_** | 
+| All bold and italic | \*** \*** | \***Bold and italic text *** | ***Bold and italic text*** | 
+
