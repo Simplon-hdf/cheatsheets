@@ -1,12 +1,13 @@
-**Cheat Sheet Git et Github**
+
+# Cheat Sheet Git et Github
 
 That cheat sheet is about how to create a git project and how to use a simple version of git.
 
-**1) How to start a repository**
+### 1. How to start a repository
 
-**2) Add, Save & Check**
+### 2. Add, Save & Check
 
-**3) Send, Receive & Remote**
+### 3. Send, Receive & Remote
 
 List all remotes & upstreams
 ```bash
@@ -28,15 +29,15 @@ ou
 git pull upstream <branch>
 ```
 
-**4) Manage branchs**
+### 4. Manage branchs
 
-**5) Remove, Restore & Revert**
+### 5. Remove, Restore & Revert
 
-**6) Merge & Rebase**
+### 6. Merge & Rebase
 
-**7) Upstream**
+### 7. Upstream
 
-**8) Compare, Diff & Log**
+### 8. Compare, Diff & Log
 
 Display diff between staging area and working directory
 ```bash
@@ -54,8 +55,7 @@ Show commit logs with paths that moved *(deleted/moved files)*
 git log --stat -M
 ```
 
-**9) Others : must know**
-
+### 9. Others : must know
 
 -------------------------------------- GIT STASH --------------------------------------
 
