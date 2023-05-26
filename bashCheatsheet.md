@@ -1,7 +1,4 @@
-##Installer Bash##
-Dans Windows : click droit ; ouvrir Terminal "Guit Bash here"
-
-Vérifier version Git
+##checking git version
 $ git --version
 
 ##Navigating Directories##
