@@ -36,6 +36,24 @@ git pull upstream <branch>
 
 **7) Upstream**
 
-**8) Others : must know**
+**8) Compare, Diff & Log**
+
+Display diff between staging area and working directory
+```bash
+git diff --staged
+```
+
+RIGHT OUTER JOIN **branch_A** ON **branch_B**
+```bash
+git log branch_B..branch_A
+git diff branch_B...branch_A
+```
+
+Show commit logs with paths that moved *(deleted/moved files)*
+```bash
+git log --stat -M
+```
+
+**9) Others : must know**
 
 
