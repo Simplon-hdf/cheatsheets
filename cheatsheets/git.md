@@ -38,15 +38,24 @@ git pull upstream <branch>
 | Command | Description |
 | --- | --- | 
 |`git merge <branch to integrate>`|Merge the specified branch history into the current one|
-|`git rebase <id commit>` </br> `git rebase <from branch>`|Apply every commit of current branch ahead of a specified one|
+|`git rebase <commit id>` </br> `git rebase <from branch>`|Apply every commit of current branch ahead of a specified one|
+|`git rebase -i <commit id or branch>` |Do the same as rebase but open a special interface to squash, edit, rename or delete commits|
 
 <details>
 <summary>Rebase & Merge understanding</summary>
-[Basic scheme](../images/git-merge-vs-rebase.PNG)
+<img src="../images/git-merge-vs-rebase.PNG" width="450" height="280"></img></br> 
 
-<img src="../images/git-merge-vs-rebase.PNG"></img>
+Both are used to integrate changes from one branch to another.
+
+**Rebase :** The main purpose of `git rebase` is that it will allow to obtain a much more simplified history. It changes the "base" of your branch by adding the commits of another one to its origin.
+    <details>
+    <summary>Detailed scheme</summary>
+    <img src="../images/rebase-understanding.PNG" width="450" height="280"></img>
+    </details>
 </details>
-<br>
+
+*Warning : do your best to avoid making git rebase if you already pushed to a public repo the commits of the branch you are gonna rebase.*
+
 
 ### 7. Upstream
 
