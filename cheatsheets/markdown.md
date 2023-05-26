@@ -2,8 +2,9 @@
 
 ## Headers
 
+You can make headers with sign "#": 
 
-\# H1   
+\# H1  
 \## H2   
 \### H3   
 \#### H4   
@@ -12,7 +13,7 @@
 
 Other way for H1 and H2:
 
-H1 Too   
+H1 Too  
 \======  
 H2 Too  
 \--------
@@ -39,5 +40,12 @@ H2 Too
 
 # Blockquotes
 
-> \>A text in a blockquote  \**four space here to break*\*    
- \> text's following 
+You can put texts in a blockquote with sign ">".
+
+> \>A text in a blockquote \**two spaces here to break*\*  
+following text at the line
+
+<br>
+
+# Tables
+
